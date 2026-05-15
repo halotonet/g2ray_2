@@ -6,7 +6,10 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": false
+      "installZsh": false,
+      "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
     },
     "ghcr.io/devcontainers/features/github-cli:1": {
       "version": "latest"
